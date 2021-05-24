@@ -420,6 +420,15 @@ class ChatScreenState extends State<ChatScreen> {
     return WillPopScope(
       child: Stack(
         children: <Widget>[
+          Positioned(
+            bottom: 0,
+            left: 0,
+            right: 0,
+            child: SizedBox(
+              height:80,
+              child: Container(color: Colors.white)
+            )
+          ),
           Column(
             children: <Widget>[
               // List of messages
@@ -429,7 +438,8 @@ class ChatScreenState extends State<ChatScreen> {
               (isShowSticker ? buildSticker() : Container()),
 
               // Input content
-              buildInput(),
+              SafeArea(child:
+              buildInput(),)
             ],
           ),
 
@@ -572,7 +582,7 @@ class ChatScreenState extends State<ChatScreen> {
             ),
             color: Colors.white,
           ),
-          Material(
+          /*Material(
             child: Container(
               margin: EdgeInsets.symmetric(horizontal: 1.0),
               child: IconButton(
@@ -582,7 +592,7 @@ class ChatScreenState extends State<ChatScreen> {
               ),
             ),
             color: Colors.white,
-          ),
+          ),*/
 
           // Edit text
           Flexible(
