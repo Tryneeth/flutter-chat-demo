@@ -1,39 +1,69 @@
 {
   "project_info": {
-    "project_number": "347976604232",
-    "firebase_url": "https://flutterchatdemo.firebaseio.com",
-    "project_id": "flutterchatdemo",
-    "storage_bucket": "flutterchatdemo.appspot.com"
+    "project_number": "126317292033",
+    "firebase_url": "https://arcor-pdv.firebaseio.com",
+    "project_id": "arcor-pdv",
+    "storage_bucket": "arcor-pdv.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:347976604232:android:5e864cb592d93aaa",
+        "mobilesdk_app_id": "1:126317292033:android:cad2b15ee8bc9966",
         "android_client_info": {
-          "package_name": "com.dfa.flutterchatdemo"
+          "package_name": "com.emser.arcorpdv"
         }
       },
       "oauth_client": [
         {
-          "client_id": "347976604232-k6p3475tsg23qhdgtdjqlb952udl5p9g.apps.googleusercontent.com",
+          "client_id": "126317292033-00entcpcgbep5o2b3jvqo268m1imh3mt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.emser.arcorpdv",
+            "certificate_hash": "d5e6591b2a8598839686dfbc166e8ef6109bce94"
+          }
+        },
+        {
+          "client_id": "126317292033-7lg08c2b53cafssnaqsjek2o1d3b1bfe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.emser.arcorpdv",
+            "certificate_hash": "b91dc551f1fc23c86fb437bc1042c7d1022e4aea"
+          }
+        },
+        {
+          "client_id": "126317292033-en8jc8fki6cn9ndrho74gg71frc8adph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.emser.arcorpdv",
+            "certificate_hash": "eb166a8f61945733dda6f0e52e984bda633c0783"
+          }
+        },
+        {
+          "client_id": "126317292033-uiok03cjm4u35i02spbi58etf3gtbq8t.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBoAoZZDb5Mzf8C8WUU6r9WHZvFWmusGN8"
+          "current_key": "AIzaSyCSQPts8hDnsBHAHpSkWlhc0eRyO8qyr20"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126317292033-uiok03cjm4u35i02spbi58etf3gtbq8t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "126317292033-bid4c8gscfhsfsmgv7fln8dg0r3tetlm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.emser.tokin",
+                "app_store_id": "1498960950"
+              }
+            }
+          ]
         }
       }
     }

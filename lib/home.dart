@@ -95,7 +95,7 @@ class HomeScreenState extends State<HomeScreen> {
 
   void showNotification(message) async {
     var androidPlatformChannelSpecifics = new AndroidNotificationDetails(
-      Platform.isAndroid ? 'com.dfa.flutterchatdemo' : 'com.duytq.flutterchatdemo',
+      Platform.isAndroid ? 'com.emser.arcorpdv' : 'com.emser.tokin',
       'Flutter chat demo',
       'your channel description',
       playSound: true,
