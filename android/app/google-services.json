@@ -8,6 +8,43 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:126317292033:android:c5a81379a07a9a6f46ae00",
+        "android_client_info": {
+          "package_name": "com.emser.arcorchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126317292033-uiok03cjm4u35i02spbi58etf3gtbq8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSQPts8hDnsBHAHpSkWlhc0eRyO8qyr20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126317292033-uiok03cjm4u35i02spbi58etf3gtbq8t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "126317292033-bid4c8gscfhsfsmgv7fln8dg0r3tetlm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.emser.tokin",
+                "app_store_id": "1498960950"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:126317292033:android:cad2b15ee8bc9966",
         "android_client_info": {
           "package_name": "com.emser.arcorpdv"
@@ -36,6 +73,14 @@
           "android_info": {
             "package_name": "com.emser.arcorpdv",
             "certificate_hash": "eb166a8f61945733dda6f0e52e984bda633c0783"
+          }
+        },
+        {
+          "client_id": "126317292033-qccbti9hr3jvteisa3fq0j86hpbe9o49.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.emser.arcorpdv",
+            "certificate_hash": "416147137a8e4a5437733bfea24a95f5aea20c95"
           }
         },
         {
